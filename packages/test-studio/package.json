@@ -24,6 +24,7 @@
     "@sanity/color-input": "0.140.3",
     "@sanity/components": "0.140.8",
     "@sanity/core": "0.140.8",
+    "@sanity/dashboard": "0.140.8",
     "@sanity/default-layout": "0.140.8",
     "@sanity/default-login": "0.140.3",
     "@sanity/desk-tool": "0.140.8",

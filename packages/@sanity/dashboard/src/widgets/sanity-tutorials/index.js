@@ -54,8 +54,8 @@ class SanityTutorials extends React.Component {
         <ul className={styles.tutorials}>
           {tutorials.map(tutorial => {
             const primaryTutorialDocument =
-              tutorial.tutorialDcouments && tutorial.tutorialDcouments.length > 0
-                ? tutorial.tutorialDcouments[0]
+              tutorial.tutorialDocuments && tutorial.tutorialDocuments.length > 0
+                ? tutorial.tutorialDocuments[0]
                 : null
 
             if (!primaryTutorialDocument) {
@@ -63,7 +63,7 @@ class SanityTutorials extends React.Component {
             }
             const author = primaryTutorialDocument.author || {
               name: 'Unknown',
-              mugshot: undefined
+              mugshot: null
             }
             const title = tutorial.title || primaryTutorialDocument.title
 

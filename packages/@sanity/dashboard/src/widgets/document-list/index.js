@@ -8,13 +8,6 @@ import schema from 'part:@sanity/base/schema'
 import Button from 'part:@sanity/components/buttons/default'
 import styles from './index.css'
 
-import {
-  getPublishedId,
-  isDraftId,
-  isPublishedId,
-  getDraftId
-} from 'part:@sanity/base/util/draft-utils'
-
 function stringifyArray(array) {
   return `["${array.join('","')}"]`
 }

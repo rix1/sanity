@@ -25,6 +25,7 @@ const client = sanityClient({
   dataset: 'bikeshop',
   token: 'sanity-auth-token', // or leave blank to be anonymous user
   useCdn: true // `false` if you want to ensure fresh data
+  timeout: 30000 // optional request timeout defaults to 30000
 })
 ```
 
